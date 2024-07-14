@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy</title>
+    <link rel="icon" href="./imgs/logo.png">
+    <!-- link styling sheets -->
+     <link rel="stylesheet" href="./style/bootstrap.min.css">
+     <link rel="stylesheet" href="./style/style.css">
+
+     <!-- link icons from font awesome-->
+     <script src="https://kit.fontawesome.com/142480f679.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black">
+
+ 
+
+    <!-- start side nav -->
+   <div class="side-nav z-3 bg-black position-fixed top-0 bottom-0">
+    <div class="menu text-white p-5 ps-4 overflow-hidden">
+        <ul class="links list-unstyled d-flex flex-column gap-3 mt-3 pe-5">
+            <li id="Search" class="position-relative">Search</li>
+            <li id="Categories" class="position-relative">Categories</li>
+            <li id="Area" class="position-relative">Area</li>
+            <li id="Ingrediends" class="position-relative">Ingrediends</li>
+            <li id="Contact" class="position-relative">Contact us</li>
+        </ul>
+        <div class="d-flex flex-column gap-3 position-absolute bottom-0">
+            <div class="d-flex gap-2 icons">
+                <i class="fab fa-facebook pointer"></i>
+                <i class="fab fab fa-twitter pointer"></i>
+                <i class="fas fa-globe pointer"></i>
+            </div>
+            <p>Copyright Â© 2019 All Rights
+                Reserved.</p>
+        </div>
+    </div>
+    <div class="options bg-white py-4 px-2 position-absolute top-0 bottom-0 start-100">
+       <div class="options-inner h-100 d-flex flex-column justify-content-between align-items-center">
+        <img class="" src="./imgs/logo.png" alt="yellow face licking it's tongue" width="50px">
+        <i class="close fas fas fa-bars fa-2xl pointer"></i>
+        <div class="icons d-flex flex-column gap-2">
+            <i class="fas fa-globe pointer"></i>
+            <i class="fas fa-share-alt pointer"></i>
+        </div>
+       </div>
+    </div>
+   </div>
+   <!-- end side nav -->
+
+   <!-- main -->
+   <div class="loading-screen text-white position-fixed top-0 bottom-0 start-0 end-0 bg-black z-2">
+    <i class="fa fa-spinner fa-spin fa-5x position-fixed top-0 start-50  top-50"></i>
+   </div>
+
+   <div class="container searchPage mt-4">
+   </div>
+   
+   <div class="main container p-4">
+        <div class="row g-4">     
+        </div>
+   </div>
+    <!-- end main -->
+ <!--link the js  -->
+ <script src="./js/bootstrap.bundle.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+ <script src="./js/index.js"></script>
+</body>
+</html>

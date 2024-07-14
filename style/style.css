@@ -1,0 +1,43 @@
+.pointer{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* side Nav */
+.side-nav li{
+    list-style: none;
+    top: 300px;
+    cursor: pointer;
+}
+.side-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+/* meal display  */
+.mealInfo{
+    transition: 0.5s all;
+}
+.meal:hover .mealInfo{
+ top: 0 !important;
+ bottom: 0;
+}
+.meal{
+    cursor: pointer;
+}
+.form-control::placeholder {
+    color: #ffffff; /* white color for placeholder text */
+    opacity: 50%;
+}
+.contact .form-control::placeholder {
+    color: black; /* white color for placeholder text */
+    opacity: 50%;
+}
+.badge{
+    font-size: 1rem;
+}
+#submit-btn{
+    top: 65%;
+}
