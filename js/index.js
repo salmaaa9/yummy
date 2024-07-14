@@ -399,6 +399,8 @@ $('.row').html(string)
 
 $('#Contact').on('click',function(){
     showContacts()
+    isOpen = false;
+    sideToggle()
 })
 function showContacts() {
 
@@ -447,7 +449,7 @@ string = `<div class="contact min-vh-100 d-flex justify-content-center align-ite
         <button id="submitBtn" disabled class="btn btn-outline-danger px-2 mt-3">Submit</button>
     </div>
 </div>  `
-    $('body').html(string);
+    $('.row').html(string);
 
     submitBtn = document.getElementById("submitBtn");
 
